@@ -1,54 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevyn Higbee</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
-    <div class="nav-container active">
-        <nav>
-            <ul class="mobile-nav">
-                <li>
-                    <div class="menu-icon-container active">
-                        <div class="menu-icon">
-                            <span class="line-1"> 
-                            </span>
-                            <span class="line-2"> 
-                            </span>
-                        </div>
-                    </div>
-                </li>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header">
+
+        <div class="top">
+
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="title">Kevyn Higbee</h1>
+                <p>IT Consultant</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                    <li><a href="#experience" id="experience-link"><span class="icon solid fa-briefcase">Experience</span></a></li>
+                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="bottom">
+
+            <!-- Social Icons -->
+            <ul class="icons">
+                <li><a href="https://github.com/Myute" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                <li><a href="https://www.linkedin.com/in/kevynhigbee/" target="_blank" class="icon brands fa fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="mailto:kevynhigbee@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
 
-            <ul class="desktop-nav">
-                <li>
-                    <a href="#">About Me</a>
-                </li>
-                <li>
-                    <a href="#">Experience</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="#">Skills</a>
-                </li>
-                <li>
-                    <a href="#">R&#233;sum&#233;</a>
-                </li>
-                <li>
-                    <a href="#">Get in Touch</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- End of Navigation Pane -->
+        </div>
+
     </div>
-    <script src="main.js"></script>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
+            <div class="container">
+
+                <header>
+                    <h2 class="alt">Hi! I'm <strong>Kevyn</strong>, an <strong>IT Consultant</strong> and<br /> with strong <strong>Programming Skills</strong>.</h2>
+                    <p>I am currently seeking opportunities to build<br /> my skills through professional experience.</p>
+                </header>
+
+                <footer>
+                    <a href="#portfolio" class="button scrolly">Continue</a>
+                </footer>
+
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="two">
+            <div class="container">
+
+                <header>
+                    <h2>Portfolio</h2>
+                </header>
+
+                <p>My current Projects include programs developed by me for personal, academic,<br> and work-related purposes. You can see some of my highlighted work below!
+                    <font size="4"><i><br>Updated Source Code may be available upon request.</i></font>
+                </p>
+
+                <div class="row">
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="https://github.com/Myute/sample-projects/tree/master/Receipt%20Reader" target="_blank" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                            <header>
+                                <h3>Receipt Reader</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="https://github.com/Myute/sample-projects/tree/master/Compiler" target="_blank" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                            <header>
+                                <h3>Compiler</h3>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="#" target="_blank" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+                            <header>
+                                <h3>SSH Gui</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="https://github.com/Myute/sample-projects/tree/master/Process%20Scheduler" target="_blank" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+                            <header>
+                                <h3>Towers of Hanoi AI</h3>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="https://github.com/Myute/sample-projects/tree/master/Process%20Scheduler" target="_blank" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <header>
+                                <h3>Process Scheduler</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="https://github.com/Myute/sample-projects/tree/master/Japanese%20Translator" target="_blank" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <header>
+                                <h3>Japanese Translator</h3>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>Professional Experience</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td>
+                            <h3>IT Consultant
+                                <font size="4">December 2021 - Current</font>
+                            </h3>
+                        </td>
+                        <td>
+                            <p>Supported California State University San Marcos as a member of the Fac/Staff Helpdesk. The responsibilities of this role included: providing timely ticket resolution in coordination with users, creating documentation for knowledge
+                                sharing with team, troubleshooting various hardware and software technical issues, and preparing and managing systems to be used on campus. <br>During this role I took on the additioanl responsibility of developing internal
+                                scripts and programs for use within team.</p>
+                        </td>
+                    </tr>
+                </table>
+                <header>
+                    <h2>Skills</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Programming Languages & Skills</h3>
+                        </td>
+                        <td>
+                            <p>
+                                C/C++, Python, Java, HTML/CSS <br> OOP Design, Git, CLI, Bash, Windows, MacOS, Unix, Eclipse, Visual Studio, Visual Studio Code
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Other Skills</h3>
+                        </td>
+                        <td>
+                            Fast Leaner, Efficient Time Management,
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <font size="5">Check out my résumé here.</font>
+                </p>
+                <a href="assets\downloadables\KevynHigbeeResume.pdf" download><span class="icon solid fa-download "> PDF</span></a>
+                <br>
+                <a href="assets\downloadables\KevynHigbeeResume.docx" download><span class="icon solid fa-download "> Word</span></a>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about " class="three ">
+            <div class="container ">
+
+                <header>
+                    <h2>About Me</h2>
+                </header>
+
+                <a href="# " class="image featured "><img src="images/pic08.jpg " alt=" " /></a>
+                <ul>
+
+                </ul>
+
+                <p>I am graduated from CSUSM in Spring 2021 with a B.S. in Computer Science. After graduating I spent time working in IT at my alma mater. I am currently looking for opportunities to pivot my career into a full-stack developer through personal
+                    projects and professional experience.</p>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact " class="four ">
+            <div class="container ">
+
+                <header>
+                    <h2>Contact</h2>
+                </header>
+
+                <p>For any questions, requests, or offers please feel free to send me an email!</p>
+                <a href="mailto:kevynhigbee@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer ">
+
+        <!-- Copyright -->
+        <ul class="copyright ">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net ">HTML5 UP</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js "></script>
+    <script src="assets/js/jquery.scrolly.min.js "></script>
+    <script src="assets/js/jquery.scrollex.min.js "></script>
+    <script src="assets/js/browser.min.js "></script>
+    <script src="assets/js/breakpoints.min.js "></script>
+    <script src="assets/js/util.js "></script>
+    <script src="assets/js/main.js "></script>
+
 </body>
+
 </html>
