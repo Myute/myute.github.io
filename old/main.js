@@ -1,0 +1,1 @@
+const desktopNav = document.querySelector("desktop-nav");
